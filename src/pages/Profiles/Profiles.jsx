@@ -165,12 +165,14 @@ const Profiles = () => {
                         <div className='profile' key={profile.id}>
                             <p className='name'>{profile.name} <DeleteIcon className='eliminar' onClick={() => Eliminar(profile.id)}/> </p>
                             {profile.imageId ?
+                            <Link to={"/account"}>
                                 <img 
                                     className='picture'
                                     src={`https://cv01.panaccess.com/cv_data_pub/images/${profile.imageId}/v/thumb.png`}
                                     alt={profile.id}
                                     onClick={(e) => SetStreamingLicense(profile.sn,profile.pin)}
-                                /> : <img
+                                />
+                                </Link> : <img
                                     className='picture'
                                     src={``}
                                     alt={profile.id}
