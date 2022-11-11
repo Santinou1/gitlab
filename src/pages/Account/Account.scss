@@ -1,0 +1,148 @@
+.fondo
+{
+    background-image:url("../../Media/Img/BGbromteck.png");
+    background-size: cover;
+    height: 100vh;
+    @media only screen and (max-device-height : 619px)
+    {
+        height: 100%;
+    }
+    .General
+    {
+        width: 70%;
+        padding-top: 100px;
+        padding-left: 15%;
+        padding-right: 15%;
+        color:aliceblue;
+        @media only screen and (min-device-width : 280px) and (max-device-width : 540px){
+            padding-left: 10%;
+            padding-right: 10%;
+            width: 80%;
+        }
+        .tittle
+        {
+            margin-bottom: 5px;
+            font-size: x-large;
+            border-bottom-style: ridge;
+            @media only screen and (min-device-width : 280px) and (max-device-width : 540px){
+                font-size: large;
+            }
+        }
+        .account
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            flex-wrap: wrap;
+            flex-direction: row;
+            font-size: larger;
+            @media only screen and (min-device-width : 280px) and (max-device-width : 540px){
+                font-size:medium;
+            }
+            .personal
+            {
+                padding-left: 15px;
+                margin-top: 12px;
+                margin-bottom: 12px;
+                span
+                {
+                    display: block;
+                    margin-bottom: 8px;
+                }
+            }
+            .option
+            {
+                margin-top: 12px;
+                margin-bottom: 12px;
+                @media only screen and (min-device-width : 280px) and (max-device-width : 540px){
+                    display: none;
+                }
+                span
+                {
+                    display: block;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+        .profiles
+        {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: nowrap;
+            font-size: larger;
+            flex-direction: row;
+            align-content: center;
+            width: auto;
+            height: 170px;
+            @media only screen and (min-device-width : 280px) and (max-device-width : 540px){
+                font-size: medium;
+            }
+            .profile
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                align-content: space-around;
+                margin: 0px auto;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding-top: 15px;
+                .picture
+                {
+                    @media only screen and (min-device-width : 280px) and (max-device-width : 540px){
+                        width: 70%;
+                    }
+                }
+                #alttext-image
+                p
+                {
+                    align-self: center;
+                }
+                .eliminar
+                {
+                    opacity: 0;
+                }
+                .eliminar:hover
+                {
+                    opacity: 1;
+                    -webkit-transition: opacity .25s ease-in-out .0s;
+                    transition: opacity .25s ease-in-out .0s;
+                }
+            }
+            .moreorless
+            {
+                @media only screen and (min-device-width : 280px) and (max-device-width : 540px)
+                {
+                    display: none;
+                }
+                margin-right: 15px;
+                button
+                {
+                    margin-right: 15px;
+                }
+            }
+        }
+        .parentalcontrol
+        {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            align-content: space-around;
+            width: 100%;
+            padding-top: 9px;
+            span
+            {
+                width: 70%;
+                margin-left: 15px;
+            }
+            input
+            {
+                width: 30%;
+                align-content: center;
+                height: 15px;
+            }
+        }
+    }
+}

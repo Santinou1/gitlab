@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Que es Bromteck ?",
+      "subTitle": "Bromteck TV es la plataforma que le permitirá interactuar con sus usuarios brindando servicios de TV lineal, contenido IPTV, OTT, y aplicaciones de terceros de manera tal que tengan la mejor experiencia en el consumo desde cualquier dispositivo, cuando y como quieras gracias a la integración y la compatibilidad con múltiples dispositivos y pantallas. ",
+      "image": "../images/misc/operador_imagen.png",
+      "alt": "Tiger King on Netflix",
+      "direction": "row"
+    },
+    {
+      "id": 2,
+      "title": "Por qué Bromteck TV ?",
+      "subTitle": "La plataforma Bromteck TV ha sido diseñada por nuestro prestigioso equipo de ingenieros que se especializa en lograr el desarrollo de soluciones innovadoras y adaptables a los procesos de evolución que suceden en el mercado.",
+      "image": "../images/misc/favoritos-1.png",
+      "alt": "Tiger King on Netflix",
+      "direction": "row-reverse"
+    },
+    {
+      "id": 3,
+      "title": "Soluciones Inteligentes.",
+      "subTitle": " Las Soluciones IoT se aplican a distintos campos como la industria, el hogar, ciudades inteligentes, agricultura, seguridad y logística.",
+      "image": "../images/misc/web_nb_2.png",
+      "alt": "Money Heist on Netflix",
+      "direction": "row"
+    }
+  ]
+  

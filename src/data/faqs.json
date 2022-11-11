@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "header": "Nuestra Mision",
+      "body": "Consiste en enfocar nuestro talento y tecnología en crear productos de calidad acompañando a nuestros clientes en su evolución a través del desarrollo de soluciones tecnológicas integradas."
+    },
+    {
+      "id": 2,
+      "header": "Nuestra Vision",
+      "body": "Ser el principal proveedor de soluciones tecnológicas a través de nuestro excelente nivel de servicio, profesionales altamente capacitados y recursos tecnológicos de vanguardia."
+    },
+    {
+      "id": 3,
+      "header": "Buen Servicio",
+      "body": "Mayor escalabilidad en menor tiempo y costo. Podemos hacer frente a picos de demanda rápidamente al bajar tiempos y por ende, mejorar el servicio del cliente hacia sus abonados."
+    },
+    {
+      "id": 4,
+      "header": "Interfaz y Administracion de datos",
+      "body": "La interfaz de administración es de avanzada, el entorno es totalmente gráfico, las funcionalidades se manejan desde el mismo y no desde una línea de comandos. Permite relacionar datos de usuario con números de smartcard/licencias, entonces el operador se ahorra parte del CRM que viene incluida."
+    },
+    {
+      "id": 5,
+      "header": "Seguridad",
+      "body": "Soporta seguridad avanzada sin smartcard, por ende permite obtener la máxima seguridad posible sin el costo innecesario del hardware de la tarjeta."
+    }
+  ]

@@ -1,0 +1,71 @@
+.row-container
+{
+    color: aliceblue;
+    background-color: black;
+
+    .row-header
+    {
+    padding:20px 20px;
+    }
+    
+    .movieRow--Left,
+    .movieRow--Right
+    {
+        position: absolute;
+        width: 40px;
+        height: 275px;
+        background-color: rgba(0, 0, 0, 0.06);
+        z-index: 90;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .movieRow--Left:hover,.movieRow--Right:hover
+    {
+        background-color: rgba(0, 0, 0, 0.598);
+    }
+    .movieRow--Left
+    {
+        left: 0;
+    }
+    .movieRow--Right
+    {
+        right: 0;
+    }
+
+    .row-cards
+    {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        padding: 2px;
+    }
+
+    .row-cards::-webkit-scrollbar
+    {
+        display: none;
+    }
+
+    .movie-card
+    {
+        object-fit: contain;
+        width: 100%;
+        max-height: 250px;
+        margin: 10px 10px 0 10px;
+        transition: transform 458ms;
+    }
+
+    .movie-card:hover
+    {
+        transform: scale(1.2);
+    }
+
+
+}
+
+
+
+
+
+
