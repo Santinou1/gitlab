@@ -1,0 +1,79 @@
+.gProfile
+{
+    background-image:url("../../Media/Img/BGbromteck.png");
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    .logo
+    {
+        width: 75%;
+        height: 150px;
+        object-fit: cover;
+    }
+    .profiles
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        margin: 10% 0;
+        align-content: space-around;
+        .profile
+        {  
+            width: auto;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-content: space-around;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+            .name
+            {
+                color: aliceblue;
+                font-size: large;
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                .eliminar
+                {
+                    opacity: 0;
+                }
+                .eliminar:hover
+                {
+                    opacity: 1;
+                    -webkit-transition: opacity .25s ease-in-out .0s;
+                    transition: opacity .25s ease-in-out .0s;
+                }
+            }
+            .picture
+            {
+                margin: 15px;
+            }
+            .picture:hover
+            {
+                border: 4px;
+                border-style: outset;
+                border-radius: 100px;
+            }
+        }
+        .moreorless
+        {
+            width: 10%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .more
+            {
+                font-size: xxx-large;
+            }
+        }
+    }
+}
